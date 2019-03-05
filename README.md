@@ -1,2 +1,2 @@
 # power-system
-Power subsytem of the sat with focus on EPS functionality, power simulations, and electrical subsystem connection/interfacing
+Power subsytem of the sat with focus on EPS functionality and electrical subsystem connection/interfacing
