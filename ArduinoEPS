@@ -1,0 +1,22 @@
+#define current_sensor A0
+#define sensorPin A1
+float i
+int sensorPin=0;
+
+void setup(){
+Serial.begin(9600);
+pinMode(current_sensor,INPUT);
+}
+
+void loop(){
+i=analogRead(current_sensor);
+int reading=analogRead(sensorPin)
+float voltage=reading*5;
+voltage /= 1024.0
+float tempC=(voltage-0.5)*100;
+float power=i*5;
+serial.print(tempC);
+serial.print(i);
+serial.print(power);
+delay(1000);
+}
